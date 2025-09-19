@@ -1,0 +1,50 @@
+# Entornos virtuales de Python
+venv/
+env/
+.benv/
+.venv/
+ENV/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Dataset (opcional - si no quieres subir datos grandes)
+data/*.csv
+data/*.xlsx
+data/*.pkl
+*.csv
+*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Entornos de conda
+.conda/
