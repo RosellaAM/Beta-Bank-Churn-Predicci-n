@@ -1,5 +1,10 @@
 # Predicción de Pérdida de Clientes en Beta Bank
 
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange?logo=scikit-learn)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![Machine Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Beta Bank enfrenta el desafío de la pérdida gradual de clientes mes tras mes. Este proyecto desarrolla un modelo predictivo de machine learning para identificar clientes con alta probabilidad de abandonar el banco (churn). El objetivo principal es crear un modelo de clasificación que maximice la métrica F1 (con un valor mínimo requerido de 0.59) y complementar el análisis con la métrica AUC-ROC para una evaluación integral del rendimiento.
 
 El proyecto sigue una metodología estructurada que incluye carga y exploración de datos, preprocesamiento, análisis del desequilibrio de clases, técnicas de balanceo, ajuste de parámetros y evaluación final del modelo.
