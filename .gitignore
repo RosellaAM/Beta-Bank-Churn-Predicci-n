@@ -1,11 +1,11 @@
-# Entornos virtuales de Python
+# Python virtual environments
 venv/
 env/
 .benv/
 .venv/
 ENV/
 
-# Archivos de Python
+# Python files
 __pycache__/
 *.pyc
 *.pyo
@@ -19,7 +19,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb
 
-# Dataset (opcional - si no quieres subir datos grandes)
+# Dataset (optional - if you don't want to upload large data files)
 data/*.csv
 data/*.xlsx
 data/*.pkl
@@ -42,9 +42,9 @@ data/*.pkl
 *.log
 logs/
 
-# Archivos temporales
+# Temporary files
 *.tmp
 *.temp
 
-# Entornos de conda
+# Conda environments
 .conda/
