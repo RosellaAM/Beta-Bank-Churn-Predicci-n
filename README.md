@@ -1,51 +1,51 @@
-# Predicción de Pérdida de Clientes en Beta Bank
+# Customer Churn Prediction for Beta Bank
 
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange?logo=scikit-learn)](https://scikit-learn.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Beta Bank enfrenta el desafío de la pérdida gradual de clientes mes tras mes. Este proyecto desarrolla un modelo predictivo de machine learning para identificar clientes con alta probabilidad de abandonar el banco (churn). El objetivo principal es crear un modelo de clasificación que maximice la métrica F1 (con un valor mínimo requerido de 0.59) y complementar el análisis con la métrica AUC-ROC para una evaluación integral del rendimiento.
+Beta Bank faces the challenge of gradually losing customers month after month. This project develops a machine learning predictive model to identify customers with a high probability of leaving the bank (churn). The main objective is to create a classification model that maximizes the F1-score (with a minimum required value of 0.59) and complements the analysis with the AUC-ROC metric for comprehensive performance evaluation.
 
-El proyecto sigue una metodología estructurada que incluye carga y exploración de datos, preprocesamiento, análisis del desequilibrio de clases, técnicas de balanceo, ajuste de parámetros y evaluación final del modelo.
+The project follows a structured methodology including data loading and exploration, preprocessing, class imbalance analysis, balancing techniques, parameter tuning, and final model evaluation.
 
-## 🎯 Resultados del Proyecto
-El proyecto ha permitido desarrollar un modelo de machine learning capaz de identificar con precisión a aquellos clientes con alta probabilidad de abandonar el banco. Tras un proceso exhaustivo, se logró obtener un modelo que supera el objetivo inicial:
-* Valor F1: 0.593 (superando el objetivo de 0.59)
-* AUC-ROC: 0.87
-* Precisión del modelo: 87% en el área bajo la curva ROC
+## 🎯 Project Results
+The project has successfully developed a machine learning model capable of accurately identifying customers with high probability of leaving the bank. After an exhaustive process, we achieved a model that exceeds the initial target:
+* **F1-score**: 0.593 (exceeding the 0.59 target).
+* **AUC-ROC**: 0.87
+* **Model Precision**: 87% area under the ROC curve.
 
-## 🚀 Impacto en la Empresa
-* Identificación temprana de clientes en riesgo de abandono
-* Estrategias de retención proactivas y personalizadas
-* Optimización de recursos al enfocar esfuerzos en clientes con mayor probabilidad de abandono
-* Reducción tangible de la tasa de churn e incremento en ingresos por retención
-* Mejora en la satisfacción del cliente mediante atención preventiva
+## 🚀 Business Impact
+* Early identification of at-risk customers
+* Proactive and personalized retention strategies.
+* Resource optimization by focusing efforts on high-probability churn customers.
+* Tangible reduction in churn rate and increased retention revenue.
+* Improved customer satisfaction through preventive attention.
 
-## 🎯 Habilidades principales
-* **Preprocesamiento de datos**: Manejo de valores nulos, codificación de variables categóricas, escalado de características.
-* **Análisis exploratorio**: Identificación de desequilibrio de clases, análisis de distribuciones.
-* **Ingeniería de características**: Transformación y preparación de datos para modelado.
-* **Selección de modelos*: Comparación y evaluación de múltiples algoritmos.
-* **Optimización**: Ajuste de hiperparámetros y técnicas de balanceo.
-* **Evaluación de modelos**: Análisis comprehensivo mediante múltiples métricas.
-* **Resolución de problemas empresariales**: Enfoque práctico para abordar desafíos de negocio.
+## 🎯 Core Skills
+* **Data Preprocessing**: Handling missing values, categorical variable encoding, feature scaling.
+* **Exploratory Analysis**: Class imbalance identification, distribution analysis.
+* **Feature Engineering**: Data transformation and preparation for modeling.
+* **Model Selection**: Comparison and evaluation of multiple algorithms.
+* **Optimization**: Hyperparameter tuning and balancing techniques.
+* **Model Evaluation**: Comprehensive analysis using multiple metrics.
+* **Business Problem Solving**: Practical approach to addressing business challenges.
 
-## 🛠️ Stack Tecnológico
-* **Frontend** -> Scikit-learn
-* **Backend** -> Python 3.8+, Pandas, NumPy
-* **Visualización** -> Matplotlib, Seaborn
-* **Desarrollo** -> Jupyter Notebooks
+## 🛠️ Tech Stack
+* **Machine Learning** → Scikit-learn
+* **Backend** → Python 3.8+, Pandas, NumPy
+* **Visualization** → Matplotlib, Seaborn
+* **Development** → Jupyter Notebooks
 
-## Ejecución Local
-1. Clona el repositorio:
+## Local Execution
+1. Clone the repository:
 
 git clone https://github.com/RosellaAM/Megaline-Plan-Recommendation.git
 
-2. Instala dependencias:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
-3. Ejecución de análisis:
+3. Run analysis:
 
   jupyter notebook notebooks/prediccion_churn_beta_bank.ipynb
