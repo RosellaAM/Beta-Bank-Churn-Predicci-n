@@ -17,7 +17,6 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
-*.ipynb
 
 # Dataset (optional - if you don't want to upload large data files)
 data/*.csv
