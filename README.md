@@ -40,7 +40,7 @@ The project has successfully developed a machine learning model capable of accur
 ## Local Execution
 1. Clone the repository:
 
-git clone https://github.com/RosellaAM/Megaline-Plan-Recommendation.git
+git clone https://github.com/RosellaAM/Beta-Bank-Churn-Prediction.git
 
 2. Install dependencies:
 
